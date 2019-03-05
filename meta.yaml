@@ -1,0 +1,13 @@
+package:
+    name: cmake_tests
+    version: 0.1
+
+build:
+    number: 0
+
+requirements:
+    build:
+        - {{ compiler('cxx') }}
+        - {{ cdt('mesa-libgl-devel') }}  # [linux]
+        - ninja
+        - cmake
