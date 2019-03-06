@@ -1,5 +1,6 @@
-project(compile_feature_test)
+
 cmake_minimum_required(VERSION 3.3)
+project(compile_feature_test)
 
 
 add_library(a a.cpp)
